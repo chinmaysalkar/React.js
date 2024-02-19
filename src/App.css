@@ -1,0 +1,1783 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Lexend:wght@700&family=Manrope:wght@400;700;800&family=Montserrat:wght@100;200;400&family=Roboto:wght@300;400;500&display=swap');
+
+
+
+body{
+    background: #f1f1f1;
+    font-family: montserrat, sans-serif !important;
+    color: #012970;
+}
+
+
+.navbar{
+border-bottom: 1px solid rgb(219, 216, 216);
+background: #f1f1f1 !important;
+}
+
+.custom-select{
+    background: white;
+    border: none;
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 5px;
+}
+
+.btn-top{
+    background-color: #5a5278;
+    border: #5a5278;
+}
+
+.all-top a:hover {
+    border-top: 1px solid;
+}
+.main-sidebar-pages{
+    width: 100%;
+}
+
+.pagewidth{
+    width: 100%;
+}
+
+
+.all-top Button{
+    background:none;
+    border: none;
+}
+
+.all-top Button:hover{
+   border-top: 1px solid black;
+}
+
+.card{
+    border: 0;
+}
+
+@media (max-width: 430px){
+    .switch-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pagewidth{
+        max-width: 100%;
+        width: 270px !important;
+        padding: 0 !important;
+    }
+
+    .top-change-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-sidebar-pages{
+        max-width: 100%;
+        width: 300px;
+        padding: 0 !important;
+    }
+    
+}
+
+@media (max-width: 330px){
+    .switch-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pagewidth{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+
+    .top-change-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
+@media (max-width: 760px){
+    .switch-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pagewidth{
+        max-width: 100%;
+        width: 500px;
+        padding: 0 !important;
+    }
+
+    .top-change-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
+
+/* For CheckBox */
+
+.checkbox-custom {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-color: #fff; 
+    border: 1px solid #999;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .checkbox-custom:checked {
+    background-color: #2C2945; 
+    border: 1px solid #2C2945;
+  }
+  
+  
+
+
+
+/*------------------------- 
+       HRMS DashBoard
+--------------------------- */
+.dashboard-main{
+    width: 100%;
+}
+
+.dashbord-heading .h4{
+    color: #2C2945;
+    font-family: montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;  
+}
+
+
+.dashbord-heading .p{
+    color: #2C2945;
+    font-family: montserrat, sans-serif;
+    font-size: 10.8px;
+    font-weight: 100;  
+}
+.dropdown{
+  margin-right: 50px;
+}
+.dropdown-content{
+  background: white;
+  color: black;
+  font-weight: 300;
+  font-family: montserrat, sans-serif;
+  z-index: 1;
+  position: absolute;
+  margin-right: 20px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+
+
+@keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+  
+}
+.blink{
+	animation-name: blinker;
+	animation-duration: 0.6s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in-out;
+	animation-direction: alternate;
+  
+
+}
+
+.ribbon .ribbon-box.green {
+    background: #cedd7a;
+}
+/* .ribbon .ribbon-box.green {
+    background: #21ba45;
+} */
+.ribbon .ribbon-box {
+    color: #fff;
+    right: auto;
+    left: 0;
+    top: 15px;
+    position: absolute;
+    height: 32px;
+    min-width: 30px;
+    padding: 0 5px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.ribbon .ribbon-box.orange {
+    background: #5a5278;
+}
+
+.ribbon .ribbon-box.orange {
+    background: #f2711c;
+}
+.ribbon .ribbon-box {
+    color: #fff;
+    right: auto;
+    left: 0;
+    top: 15px;
+    position: absolute;
+    height: 32px;
+    min-width: 30px;
+    padding: 0 5px;
+    text-align: center;
+    line-height: 32px;
+}
+
+
+@media (max-width: 430px){
+    .dashboard-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+   
+}
+
+
+@media (max-width: 330px){
+    .dashboard-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+   
+}
+
+
+/*------------------------- 
+        Header
+--------------------------- */
+
+.media .media-object {
+    transition: all .3s ease-in-out;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent;
+}
+.media-object {
+    margin-right: 10px;
+}
+.media-body{
+    width: 200px;
+}
+.media-body .badge{
+    margin-right: 10px;
+}
+.media .name {
+    display: block;
+    color: #292b30;
+    line-height: normal;
+}
+
+.media .message {
+    color: #808488;
+    font-size: 13px;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+.right_chat li.online .status {
+    background: #5a5278;
+}
+
+.notification .dropdown-toggle::after{
+  border-right: 0 !important;  
+  border-left: 0 !important;
+}
+
+
+.media .status {
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 40px;
+    top: 38px;
+    width: 11px;
+    height: 11px;
+    min-width: inherit;
+    border: 3px solid #fff;
+}
+
+
+
+@media (max-width: 430px){
+    .header-right{
+        display: none !important;
+    }
+
+   
+}
+
+@media (max-width: 767px) {
+    
+    .navbar-brand {
+      font-size: 16px; 
+    }
+
+    .xs-hide{
+        display: none;
+    }
+    
+}
+
+/*-------------------------- 
+        Dashboard Index 
+---------------------------*/
+
+.card-index{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgb(188, 185, 185);
+
+}
+
+
+.index-icon a{
+    transition: transform .2s;
+}
+
+.index-icon a:hover{
+    transition: scale(1.1);
+}
+
+
+/*----------------------------
+        Sidebar
+ -----------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;   
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.logo1{
+  width: 50px;
+  height: 40px;
+ 
+}
+
+
+
+#sidebar {
+    width: 50px;
+    min-width: 70px;
+    z-index: 1000;
+    transition: all .25s ease-in-out;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar:hover{
+    transform: scale3d(1.1);
+
+}
+
+#sidebar.expand {
+    width: 190px;
+    min-width: 150px;
+}
+
+.sidebar-fixed{
+    background-color: white;
+    width: 65px;
+}
+
+.sidebar-fixed1{
+    transition: transform .1s;
+    color: #2c2945 !important;
+}
+
+.sidebar-fixed1:hover{
+    transform: scale(2);
+    color: rgb(83, 197, 238) !important;
+}
+
+.sidebar-profile-icon{
+    cursor: pointer;
+    
+}
+.profile-img1{
+    width: 60px;
+}
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    /* padding: 1rem 1.5rem; */
+    margin-top: -10px;
+}
+
+.toggle-btn i {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.sidebar-logo {
+    margin: auto 0;
+    color: black;
+}
+
+.sidebar-logo a {
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.sidebar-logo h2{
+  color: white;
+  font-weight: 300;
+}
+
+.sidebar-menu{
+    width: 210px;
+    /* height: 500px; */
+    /* overflow-y: auto;  */
+}
+
+
+.sidebar-nav {
+    padding: 2rem 0;
+    flex:  auto;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #FFF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-link i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
+}
+
+.row .col-3{
+    margin-left: 10px;
+}
+
+.sidebar-item {
+    position: relative;
+}
+
+
+a.sidebar-link {
+    color: black;
+
+}
+
+
+.sidebar-item span{
+    color: black;
+}
+
+.sideicon{
+    color: black;
+}
+
+.sidebar-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after{
+    border: none;
+}
+
+
+
+@media (max-width: 430px){
+    
+    .sidebar-footer{
+        position: fixed;
+        left: 0;
+        bottom: 0; 
+        z-index: 1;
+    }
+    .wrapper{
+        margin: 0 !important;
+    }
+    #sidebar {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+      }
+
+    #profile-sidebar{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+} 
+
+
+@media (max-width: 768px) {
+    .wrapper {
+      padding-left: 0;
+    }
+  
+    .sidebar-expanded #sidebar {
+      margin-left: -250px;
+      width: auto;
+    }
+     
+  }
+
+  
+  .side-setting-icon {
+    animation: rotate 2s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+  
+/*-------------------------- 
+        Side-Bar  Ui-Pages  
+-----------------------------*/
+.side-icon-ui{
+    margin-bottom: 5px;
+    transition: transform .2s;
+}
+
+.side-icon-ui:hover{
+    border-right: 2px solid #0e2238;
+    transform: scale(1.1);
+}
+
+.side-icon-ui span:hover{
+    color: #0e2238;   
+}
+
+/*-------------------------------- 
+    My Profile 
+-----------------------------------*/
+.list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.social-links li a {
+    background: #f8f8f8;
+    border-radius: 50%;
+    color: #5a5278;
+    display: inline-block;
+    height: 1.75rem;
+    width: 1.75rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.social-links li a:hover{
+    color: lightgreen;
+    background: white;
+}
+.btn-outline-primary {
+    color: #5a5278;
+    border-color: #5a5278;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    border-color: #5a5278;
+    background: #5a5278 ;
+}
+.profile-basic h3{
+    font-weight: bold;
+    color: #5a5278;
+}
+.profile-basic p{
+    color: #5a5278;
+}
+
+.profile-basic1 .font-weight-bold{
+    font-weight: bold;
+    color: #5a5278;
+}
+
+.profile-view .profile-img-wrap {
+    height: 120px;
+    width: 120px; 
+}
+
+@media (max-width: 575px){
+    .profile-view .profile-img-wrap {
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 768px){
+    .profile-view .profile-basic .profile-info-left {
+        border-right: none;
+        border-bottom: 2px dashed #cccccc;
+        margin: 0 0 20px;
+        padding: 0 0 20px;
+    }
+}
+
+
+
+/*--------------------------- 
+        Users
+-----------------------------*/
+.users-main{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    .users-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 330px){
+    .users-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+
+/*------------------------ 
+        User List
+---------------------------- */
+
+.userlist .table td{
+    font-size: 14px;
+    font-family: montserrat,sans-serif;
+}
+.avatar-sml{
+    width: 50px;
+}
+
+/*--------------------------- 
+        AddUser
+---------------------------- */
+.adduser-main{
+    width: 100%;
+}
+
+
+
+/*--------------------------- 
+        Report 
+----------------------------*/
+.report-main{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    .report-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 330px){
+    .report-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+
+/*------------------------------ 
+        Report Details 
+--------------------------------*/
+.report-detail{
+    border: none;
+    background-color: white;
+}
+.report-detail-t1{
+    font-size: medium;
+}
+
+/*-------------------------- 
+        Dipartment 
+----------------------------*/
+.department-main{
+    width: 100%;
+}
+.department .table td{
+    font-size: 14px;
+    font-family: montserrat,sans-serif;
+}
+
+
+@media (max-width: 430px){
+    .department-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 330px){
+    .department-main{
+        max-width: 100%;
+        width: 240px;
+    }
+}
+/*--------------------------- 
+        Events
+----------------------------- */
+.events-main{
+    width: 100%;
+}
+
+/*---------------------------- 
+        Holidays 
+-----------------------------*/
+.holiday-main{
+    width: 100%;
+}
+
+.holidays table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  font-weight: 350;
+  font-family: montserrat,sans-serif;
+  
+}
+.table.table_custom, .table.table_custom.spacing5 {
+  border-spacing: 0 8px!important;
+}
+.table.table_custom {
+  border-collapse: separate;
+
+}
+.table th{
+  font-weight: 350;
+  font-family: montserrat,sans-serif;
+  border: none;
+}
+
+@media (max-width: 430px){
+    .holiday-main{
+        max-width: 100%;
+        width: 270px;
+    }
+}
+
+@media (max-width: 330px){
+    .holiday-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+/*--------------------------- 
+        Payroll 
+-----------------------------*/
+.payroll-main{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    .payroll-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+
+
+@media (max-width: 330px){
+    .payroll-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+ /*--------------------------- 
+            PaySlip 
+ -----------------------------*/
+ .payslip-main{
+    width: 100%;
+ }
+ .payslip-img{
+    width: 50px;
+ }
+
+/*---------------------------- 
+            Activites 
+------------------------------*/
+.activities-main{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    .activities-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 330px){
+    .activities-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+
+.timeline-item {
+    border-left: 1px solid #d1d3d4;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.activites-card{
+    border: none !important;
+}
+
+
+
+/*--------------------------- 
+        Account 
+------------------------------*/
+.account-main{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    .account-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 330px){
+    .account-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+
+
+
+/*---------------------------- 
+        Employee
+------------------------------ */
+.employee-main{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    .employee-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 330px){
+    .employee-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+
+/*------------------------------ 
+        Employee List 
+--------------------------------*/
+
+.employeeinputbtn{
+    color: #6c757d!important;
+    font-size: small !important;
+}
+
+.employeeli .table td{
+    font-size: 14px;
+    font-family: montserrat,sans-serif;
+}
+
+/*------------------------------ 
+        Events 
+-------------------------------*/
+.calender-main{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    .calender-main{
+        max-width: 100%;
+        width: 270px;
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 330px){
+    .calender-main{
+        max-width: 100%;
+        width: 240px;
+        padding: 0 !important;
+    }
+}
+
+/*------------------------------- 
+        Contact 
+---------------------------------*/
+.contact-gridtop a:hover {
+    border-bottom: 1px solid;
+    border-top: none;
+  }
+
+@media (max-width: 430px){
+    .contact-gridtop{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+    .sort_stat{
+        display: inline-block;
+        
+    }
+}  
+
+
+
+/*----------------------------- 
+        File Manager 
+--------------------------------*/
+.file-icon{
+    font-size: 40px;
+}
+.file-folder a:hover{
+    border-top: none;
+}
+
+.file-folder{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.avatar-file {
+    width: 30px;
+}
+
+
+/*-------------------------- 
+    Friends Group 
+----------------------------*/
+.chat_app .chat_windows ul {
+    padding: 20px 0;
+    height: calc(100vh - 210px);
+    overflow: auto;
+}
+.chat_windows ul ::-webkit-scrollbar{
+    display: none;
+}
+.chat_app .chat_windows .other-message {
+    text-align: left;
+}
+.chat_app .chat_windows ul li {
+    list-style: none;
+}
+.chat_app .chat_windows ul li, .mb-30 {
+    margin-bottom: 30px;
+}
+
+.avatar {
+    color: #4d5052;
+    font-weight: 600;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: #808488 no-repeat 50%/cover;
+    position: relative;
+    vertical-align: bottom;
+    font-size: .875rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.align-center, .avatar, .blog_left .blog_post .content .actions_sidebar a, .card-icon, .dropdown-icon, .file_folder .icon, .selectgroup-button, .stamp, .tag-addon {
+    text-align: center;
+}
+.mr-3, .mx-3 {
+    margin-right: 1rem!important;
+}
+img {
+    max-width: 100%;
+}
+
+.chat_app .chat_windows .message .time {
+    display: block;
+   font-size: 12px;
+} 
+.blog_right .widget.popular_post .single_post, .chat_app .chat_windows .message p, .fc.event_list .fc-event, .file_folder a, .mb-5 {
+    margin-bottom: 5px;
+}
+
+.chat_app .chat_windows .message p {
+    border-radius: 60px 60px 60px 0;
+    width: -moz-max-content;
+    padding: 8px 15px;
+}
+ .bg-light-blue {
+    background-color: rgba(90,82,120,.1);
+    color: #5a5278;
+}
+
+.bg-light-cyan {
+    background-color: rgba(232,118,159,.1);
+    color: #e8769f;
+}
+
+.chat_app .chat_windows .my-message, .ct-legend, .wizard .actions {
+    text-align: right;
+}
+
+@media (max-width: 430px){
+    .chat-group-btn{
+        display: flex ;
+    }
+    .chat_list{
+        position: fixed;
+        z-index: 1000;
+        bottom: 0;
+        background-color: #efefef;
+        border: 1px solid #867fda;
+        margin: 5% !important;
+        height: auto !important;
+
+    }
+}
+
+/* ChatList */
+
+.chat_list{
+    position: absolute;
+    z-index: 1;
+    overflow-y: scroll !important;
+    background-color: #efefef;
+    margin-top: 10% !important;
+   
+}
+
+
+.page .section-white {
+    background: #f1f1f1;
+}
+
+@media screen and (max-width: 1023px){
+    .chat_app .chat_list {
+        right: -320px;
+    }
+    
+    
+}
+
+.chat_app .chat_list {
+    transition: all .5s ease-in-out;
+    border-left: 1px solid #e6e9ed;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    z-index: 7;
+}
+
+@media screen and (max-width: 992px){
+    .chat_app .chat_list_btn {
+        display: block;
+    }
+}
+.float-right {
+    float: right!important;
+}
+.nav-tabs {
+    transition: all .3s ease-in-out;
+    color: #9aa0ac;
+    user-select: none;
+    margin: 0 -0.75rem;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+   
+    list-style: none;
+}
+.nav-tabs .nav-item {
+    position: relative;
+}
+
+
+ /*---------------------------- 
+    Sidebar Icon Search Page 
+ ------------------------------*/
+ .custom-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: plum; 
+    color: #FFF; 
+    border-radius: 5px;
+  }
+
+
+/*----------------------------- 
+        Project 
+------------------------------*/
+
+/* Upcoming component */
+.table-img{
+    width: 35px;
+}
+ 
+/* OnGoing Component */
+table td span{
+    font-size: 14px;
+    font-family:  montserrat, sans-serif;
+}
+
+table th span{
+    font-size: 14px;
+    font-family:  montserrat, sans-serif;
+    font-weight: 400;
+}
+
+/*----------------------------- 
+        TaskBoard 
+-------------------------------*/
+
+
+.table_custom tbody{
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
+    color: #2C2945;
+}
+
+.table_custom tbody td h6{
+    font-size: 16px;
+    font-family: montserrat, sans-serif;
+    color: #2C2945;
+}
+.table_custom tbody td span{
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
+    color: #2C2945;
+}
+
+
+.card-options-collapse, .card-options-remove{
+    cursor: pointer;
+}
+
+
+
+.avatar-container {
+    position: relative;
+}
+
+.img-thumbnail {
+   
+    width: 50px; 
+    height: 50px; 
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.avatar-img-stack {
+    margin-bottom: 5px;
+}
+
+.remaining-count {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 2px 5px; 
+    font-size: 12px; 
+    border-radius: 3px; 
+}
+
+
+/*----------------------------- F
+        Ticket List 
+-------------------------------*/
+.ticket-table{
+    font-size: 14px;
+}
+.ticket-table thead tr{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: montserrat, sans-serif;
+    color: #2C2945;
+}
+
+
+.ticket-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: montserrat, sans-serif;
+}
+
+
+ /*----------------------------- 
+        Project Client 
+ -------------------------------*/
+ .ribbon .ribbon-box.green{
+    background:  #21ba45;
+}
+
+ .ribbon .ribbon-box.orange{
+    background: #e4bd51;
+}
+
+.ribbon .ribbon-box.indigo  {
+    background: #5a5278;
+}
+
+.ribbon .ribbon-box.pink {
+    background: #e8769f;
+}
+
+
+
+.ribbon .ribbon-box.orange:before {
+    border-color: #e4bd51 transparent #e4bd51 #e4bd51;
+}
+
+
+.ribbon .ribbon-box.indigo:before {
+    border-color: #5a5278 transparent #5a5278 #5a5278;
+}
+
+
+.ribbon .ribbon-box.pink:before {
+    border-color: #e8769f transparent #e8769f #e8769f;
+}
+
+
+.ribbon .ribbon-box.green:before {
+    border-color: #21ba45 transparent #21ba45 #21ba45;
+}
+
+.ribbon .ribbon-box:before {
+    position: absolute;
+    display: block;
+    width: 0;
+    content: "";
+    top: 0;
+    right: -8px;
+    height: 32px;
+    border-style: solid;
+    border-width: 16px 8px 16px 0;
+}
+.client-social-icon{
+    color: #2c2945;
+}
+
+.client-social-icon:hover{
+    color: lightgreen;
+}
+
+.client-view-btn{
+    border: 1px solid white;
+    background: black;
+    color: white;
+}
+
+.client-view-btn:hover{
+    border: 1px solid black !important;
+    color: black;
+}
+/*------------------------------------ 
+        TODO List 
+--------------------------------------*/
+
+ .completed {
+    text-decoration: line-through;
+    color: #808488;
+  }
+
+
+
+
+/*------------------------------ 
+        Ticket Details 
+--------------------------------*/
+.progress-xs {
+    height: 0.35rem;
+}
+.progress-bar {
+    border: transparent;
+}
+.bg-info, .bg-primary, .bg-warning, .btn-success {
+    background-color: #5a5278!important;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+}
+
+.tl_avatar{
+    width: 35px;
+    height: 25px;
+}
+
+.timeline-img{
+    width: 90px;
+}
+
+/*----------------------------- 
+        Job Portal 
+--------------------------------*/
+.row-deck>[class*=col-] {
+    display: flex;
+    align-items: stretch;
+}
+
+.row-deck>[class*=col-] .card {
+    flex: 1 1 auto;
+}
+
+@media (min-width: 768px){
+    /* .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/*------------------------------ 
+       Job Portal Setting 
+--------------------------------*/
+.setting-img{
+    width: 60px;
+}
+
+
+/*--------------------------- 
+        Login 
+----------------------------*/
+
+.loginpage{
+    font-family: montserrat,sans-serif;
+}
+
+.login-main{
+    overflow: hidden;
+}
+
+.logo-login{
+    width:  60px;
+}
+
+.auth {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.auth .auth_left {
+    background: #39374e;
+}
+
+.auth .auth_left {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 400px;
+    padding: 0 20px;
+}
+
+.auth .auth_right {
+    width: calc(100% - 400px);   
+    text-align: center;
+   
+}
+
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+
+.auth .auth_left .card {
+    padding: 20px;
+    z-index: 99999;
+    margin-left: 20px;
+}
+
+@media (max-width: 430px){
+   .auth .auth_right{
+        display: none;
+    }
+
+    .auth .auth_left{
+        max-height: 100vh;
+        height: 100vh;
+        margin: 0;
+        padding: 0 10px;
+        max-width: 100%;
+        width: 600px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .auth .auth_left .card {
+       align-items: center;
+    }
+}
+
+/*---------------------------- 
+        Register 
+------------------------------*/
+.auth .auth_left .card {
+    right: -140px;
+}
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+.auth .auth_right img {
+    width: 500px;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 990px){
+    .auth .auth_left .card {
+        right: 0;
+    }
+}
+
+/*---------------------------- 
+        Forgot Password 
+------------------------------*/
+/* .otp-input {
+    width: 40px !important;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5;
+} */
+
+
+
+/*---------------------------- 
+        Forms 
+-------------------------------*/
+.form-label {
+    font-weight: 600;
+    margin-bottom: 0.375rem;
+    font-size: .875rem;
+}
+
+.form-control {
+    border-color: #e8e9e9;
+    font-size: 14px;
+    height: auto;
+}
+
+.bg-azure, .bg-blue, .bg-indigo, .bg-orange, .bg-purple, .bg-red {
+    background-color: #5a5278!important;
+}
+.colorinput {
+    
+    position: relative;
+    cursor: pointer;
+}
+.colorinput-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.colorinput-color {
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgba(0,40,100,.12);
+    color: #fff;
+    width: 1.75rem;
+    height: 1.75rem;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+.colorinput-color:before {
+    content: "\e92a";
+    font-family: feather!important;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+}
+.bg-cyan, .bg-green, .bg-lime, .bg-pink, .bg-teal, .bg-yellow {
+    background-color: #e8769f!important;
+}
+
+
+.selectgroup {
+    display: inline-flex;
+}
+.selectgroup-item {
+    flex-grow: 1;
+    position: relative;
+}
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.selectgroup-input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.selectgroup:not(.selectgroup-vertical)>.selectgroup-item:not(:last-child) .selectgroup-button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.selectgroup-input:checked+.selectgroup-button {
+    border-color: #5a5278;
+    color: #5a5278;
+    background: rgba(90,82,120,.2);
+}
+
+.selectgroup-input:checked+.selectgroup-button {
+    border-color: #2185d0;
+    color: #2185d0;
+    background: #e9f3fa;
+    z-index: 1;
+}
+.selectgroup-button {
+    display: block;    
+    border-radius: 3px;
+    color: #9aa0ac;
+    font-size: 14px;
+    min-width: 2.375rem;
+    border: 1px solid rgba(0,40,100,.12);
+    padding: 5px 15px;
+    position: relative;
+    cursor: pointer;    
+    user-select: none;
+    line-height: 1.5rem;
+}
+
+.selectgroup-pills {
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.selectgroup-pills .selectgroup-item {
+    margin-right: 0.5rem;
+    flex-grow: 0;
+}
+
+.custom-range {
+    align-items: center;
+    appearance: none;
+    background: 0 0;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    min-height: 2.375rem;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    
+}
+
+/*------------------------------ 
+        Tables 
+--------------------------------*/
+
+/* All Tables font color and size */
+.table th{
+    font: 14px;
+    font-family: monserrat, sans-serif;
+    color: #2c2945;
+}
+
+
+.table td{
+    font: 14px;
+    font-family: monserrat, sans-serif;
+    color: #2c2945;
+}
+
+.section-gray{
+    background-color: #f1f1f1;
+}
+
+.card-pay{
+   width: 50px; 
+}
+
+
+/*------------------------------ 
+        Icons Page 
+---------------------------------*/
+.icon-container {
+    position: relative;
+
+  }
+  
+  .icon-box {
+    width: 60px; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  
+  
+/*------------------------------ 
+        Footer 
+--------------------------------*/  
+.footer {
+    bottom: 0;
+    
+}
+
+
+@media (max-width: 430px){
+    .footer-sml{
+      text-align: end !important;
+    }
+}
+
