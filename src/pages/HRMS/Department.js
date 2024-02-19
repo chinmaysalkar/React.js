@@ -61,7 +61,7 @@ export default function Department() {
           </div>
 
           <div class="mb-3">
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="No of Employee "/>
+          <input type="numbers" class="form-control" id="exampleFormControlInput1" placeholder="No of Employee "/>
           </div>
         </Modal.Body>
         <Modal.Footer>
