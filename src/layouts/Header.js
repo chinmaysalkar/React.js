@@ -221,7 +221,7 @@ export default function Header() {
                     </button> */}
                     <Navbar.Brand href="#" className='mt-1'>{username}</Navbar.Brand>
 
-                <div className='d-flex mx-2'>
+                {/* <div className='d-flex mx-2'>
                     <div className='mx-2'>
                         <select className="custom-select p-2">
                             <option>Year</option>
@@ -240,13 +240,13 @@ export default function Header() {
                             />   
                         </Form>
                     </div>
-                </div>
+                </div> */}
                 </div>
                   
                 <div className='d-flex header-right mx-3'>                 
                     <div className='d-flex xs-hide'>
                         <div className='d-flex mx-2'>                       
-                            <li className="nav-item dropdown mx-2">
+                            {/* <li className="nav-item dropdown mx-2">
                                 <a className="nav-link dropdown-toggle" href="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Language
                                 </a>
@@ -270,10 +270,10 @@ export default function Header() {
                                     </li>
                                 </ul>
 
-                            </li>
+                            </li> */}
 
 
-                            <li className="nav-item dropdown mx-2">
+                            {/* <li className="nav-item dropdown mx-2">
                                 <a className="nav-link dropdown-toggle" href="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Report
                                 </a>
@@ -282,7 +282,7 @@ export default function Header() {
                                     <li><a className="dropdown-item" href="/action">Ms Word</a></li>
                                     <li><a className="dropdown-item" href="/action">PDF</a></li>
                                 </ul>
-                            </li>
+                            </li> */}
 
 
 

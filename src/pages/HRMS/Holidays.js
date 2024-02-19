@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { Form } from 'react-bootstrap';
 
 export default function Holidays() {
     
@@ -110,19 +111,27 @@ export default function Holidays() {
             <input type="date" className="form-control" id="holidaydate" placeholder=""/>
             </div>
 
-            <div className="mb-3">
-            <label htmlFor="holidayday" className="form-label">Holiday Day</label>
-            <input type="text" className="form-control" id="holiday" placeholder=""/>
+            <div className=''>
+              <label htmlFor="mobileno" className="form-label">Holiday Day<span className='text-danger'>*</span></label>
+                <Form.Select aria-label="Custom select example">
+                    <option value="1">Monday</option>
+                    <option value="2">Tuesday</option>
+                    <option value="3">Wednesday</option>
+                    <option value="3">Thursday</option>
+                    <option value="3">Friday</option>
+                    <option value="3">Saturday</option>
+                    <option value="3">Sunday</option>
+                </Form.Select>
             </div>
 
             </div>
         </Modal.Body>
 
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
+          <Button variant="secondary" onClick={handleClose} className='bg-danger boreder-0'>
+            Cancel
           </Button>
-          <Button variant="primary" className='btn-top'>
+          <Button variant="primary" className='btn-top boreder-0'>
             Add
           </Button>
         </Modal.Footer>
